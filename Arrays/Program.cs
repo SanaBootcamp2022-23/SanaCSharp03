@@ -1,5 +1,9 @@
-﻿const int n = 10;
-double[] arr = new double[n] { 3.6, 7, 8, 45, 6.5, -9.4, -8, 0, 74, -100 };
+﻿Console.WriteLine("Amount of elements:");
+int n = int.Parse(Console.ReadLine());
+double[] arr = new double[n];
+for(int i = 0; i< arr.Length;i++)
+    arr[i] = double.Parse(Console.ReadLine());
+
 double sum = 0, max, imax = 0;
 foreach(double d in arr)
     if(d<0)
@@ -20,7 +24,7 @@ Console.WriteLine($"Index of max number: {imax}");
 
 max = Math.Abs(arr[0]);
 for (int i = 1; i < arr.Length; i++)
-    if (max < Math.Abs(arr[i]))
+    if (Math.Abs(max) < Math.Abs(arr[i]))
     max = arr[i];
 
 Console.WriteLine($"Max by module number: {max}");
