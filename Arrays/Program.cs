@@ -18,9 +18,9 @@ namespace Arrays
 
             for (int i = 0; i < N; i++)
             {
-                arr[i] = i == random.Next(0, N) ? 
+                arr[i] = (i == random.Next(0, N) ? 
                     random.Next(-10, 10) :
-                    GetRandomNumber(-10, 10);
+                    GetRandomNumber(-10, 10));
                 Console.Write($"{Math.Round(arr[i], 3)}| ");
             }
 
