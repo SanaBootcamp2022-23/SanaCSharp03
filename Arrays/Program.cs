@@ -4,7 +4,7 @@ double[] arr = new double[n];
 for(int i = 0; i< arr.Length;i++)
     arr[i] = double.Parse(Console.ReadLine());
 
-double sum = 0, max, imax = 0;
+double sum = 0, max, imax = 0; int count = 0;
 foreach(double d in arr)
     if(d<0)
     sum += d;
@@ -34,3 +34,9 @@ for (int i = 0; i < arr.Length; i++)
         sum += i;
 
 Console.WriteLine($"Sum of indexes positive numbers: {sum}");
+foreach(double d in arr)
+{
+    if (d == (int)d)
+        count++;
+}
+Console.WriteLine($"Amount of integers: {count}");
