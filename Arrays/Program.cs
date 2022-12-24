@@ -9,13 +9,12 @@ double max = 0;
 double max_absolute = 0;
 uint index = 0;
 uint number_integers =0;
-//uint number_integers = 0;
 
 for (uint i = 0; i < count; i++)
 {
-    //определяем сумму отрицательных значений
     Console.Write($"Введите текущие значения массива {i}-  ");
     array[i] = double.Parse(Console.ReadLine());
+    //определяем сумму отрицательных значений
     if (array[i] < 0)
         summa_negative += array[i];
     //определяем сумму индексов положительных значений
@@ -30,7 +29,6 @@ for (uint i = 0; i < count; i++)
     //определяем абсолютное максимальное значение элемента массива 
     if (Math.Abs(array[i]) > Math.Abs(max_absolute))
         max_absolute = array[i];
-
     //определяем количество целых чисел в массиве
     if (array[i] == Math.Round(array[i], 0))
     number_integers += 1;
