@@ -14,8 +14,29 @@ namespace Arrays
             var lengthOfArr = ConsoleReader.ReadInt("length", 1);
             var arr = new double[lengthOfArr];
 
-            Console.WriteLine("\nPlease enter items of array.");
-            FillArray(arr);
+            Console.WriteLine("\nPlease select the array filling option: 1 - User; 2 - Random");
+            var menu = ConsoleReader.ReadInt("menu", 1, 2);
+
+            if (menu == 1)
+            {
+                Console.WriteLine("\nPlease enter items of array.");
+                FillArray(arr);
+            }
+            else
+            {
+                Console.WriteLine("\nPlease enter min and max generation limits.");
+                var min = ConsoleReader.ReadDouble("min");
+                var max = ConsoleReader.ReadDouble("max");
+
+                if (min < max)
+                {
+                    FillArrayRandom(arr, min, max);
+                }
+                else
+                {
+                    Console.WriteLine("\nError: Min limit cannot less max limit.");
+                }
+            }
 
             Console.WriteLine("\nYour array:");
             Console.WriteLine(ArrayToString(arr));
@@ -27,6 +48,14 @@ namespace Arrays
             Console.WriteLine($"4) Maximum item of the array by modulus: {FindMaxAbsItemInArray(arr)}");
             Console.WriteLine($"5) Sum of indexes positive numbers of the array: {SumOfIndexesPositiveElementsInArray(arr)}");
             Console.WriteLine($"6) Count of the integer numbers of the array: {FindCountIntegerNumbersInArray(arr)}");
+        }
+
+        static void FillArrayRandom(double[] array, double min, double max)
+        {
+            for(var i = 0; i < array.Length; i++)
+            {
+                array[i] = Math.Round(new Random().NextDouble() * (max - min) + min, 3);
+            }
         }
 
         static void FillArray(double[] array)
