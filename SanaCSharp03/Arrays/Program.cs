@@ -4,9 +4,24 @@ namespace Arrays
 {
     internal class Program
     {
+
         static void Main(string[] args)
         {
-            int N = int.Parse(Console.ReadLine());
+            int N;
+            while (true)
+            {
+                Console.WriteLine("Enter array length:");
+                N = int.Parse(Console.ReadLine());
+                if (N <= 0)
+                {
+                    Console.WriteLine("Length must be a positive number. Try again");
+                    Console.WriteLine();
+                }
+                else
+                {
+                    break;
+                }
+            }
             double[] numbers = new double[N];
             for (int i = 0; i < N; i++)
             {
