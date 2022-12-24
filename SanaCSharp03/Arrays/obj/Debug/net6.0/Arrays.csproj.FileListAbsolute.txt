@@ -1,0 +1,15 @@
+D:\SanaCSharp03\SanaCSharp03\Arrays\bin\Debug\net6.0\Arrays.exe
+D:\SanaCSharp03\SanaCSharp03\Arrays\bin\Debug\net6.0\Arrays.deps.json
+D:\SanaCSharp03\SanaCSharp03\Arrays\bin\Debug\net6.0\Arrays.runtimeconfig.json
+D:\SanaCSharp03\SanaCSharp03\Arrays\bin\Debug\net6.0\Arrays.dll
+D:\SanaCSharp03\SanaCSharp03\Arrays\bin\Debug\net6.0\Arrays.pdb
+D:\SanaCSharp03\SanaCSharp03\Arrays\obj\Debug\net6.0\Arrays.csproj.AssemblyReference.cache
+D:\SanaCSharp03\SanaCSharp03\Arrays\obj\Debug\net6.0\Arrays.GeneratedMSBuildEditorConfig.editorconfig
+D:\SanaCSharp03\SanaCSharp03\Arrays\obj\Debug\net6.0\Arrays.AssemblyInfoInputs.cache
+D:\SanaCSharp03\SanaCSharp03\Arrays\obj\Debug\net6.0\Arrays.AssemblyInfo.cs
+D:\SanaCSharp03\SanaCSharp03\Arrays\obj\Debug\net6.0\Arrays.csproj.CoreCompileInputs.cache
+D:\SanaCSharp03\SanaCSharp03\Arrays\obj\Debug\net6.0\Arrays.dll
+D:\SanaCSharp03\SanaCSharp03\Arrays\obj\Debug\net6.0\refint\Arrays.dll
+D:\SanaCSharp03\SanaCSharp03\Arrays\obj\Debug\net6.0\Arrays.pdb
+D:\SanaCSharp03\SanaCSharp03\Arrays\obj\Debug\net6.0\Arrays.genruntimeconfig.cache
+D:\SanaCSharp03\SanaCSharp03\Arrays\obj\Debug\net6.0\ref\Arrays.dll
