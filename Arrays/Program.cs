@@ -9,21 +9,12 @@ namespace Arrays {
 
             Console.WriteLine("Array: " + "[" + string.Join(", ", array) + "]\n");
 
-            double sumOfNegativeElements = array.Where(number => number < 0)
-                                                .Sum();
-
+            double sumOfNegativeElements = array.Sum(number => number < 0 ? number : 0);
             double maxElement = array.Max();
-
-            int indexOfMaxElement = array.ToList()
-                                         .IndexOf(maxElement);
-
+            int indexOfMaxElement = array.ToList().IndexOf(maxElement);
             double maxElementByAbsoluteValue = array.Max(number => Math.Abs(number));
-
-            int sumOfIndexesOfPositiveElements = array.Select((element, index) => element > 0 ? index : 0)
-                                                      .Sum();
-
+            int sumOfIndexesOfPositiveElements = array.Select((element, index) => element > 0 ? index : 0).Sum();
             int numberOfIntegers = array.Count(number => number == (double) Math.Round(number));
-
 
             Console.WriteLine("Sum of negative elements: " + sumOfNegativeElements);
             Console.WriteLine("Max element: " + maxElement);
