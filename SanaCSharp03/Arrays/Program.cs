@@ -1,12 +1,12 @@
 ﻿var array = new List<double>();
 
-Console.WriteLine($"Enter elements of array one buy one pressing enter,\n"
+Console.WriteLine($"Enter elements of the array one by one,\n"
     + "leave field empty and press enter to finish");
 
 while (true)
 {
     double num;
-    Console.Write($"Enter element number {array.Count + 1} -> ");
+    Console.Write($"Enter element {array.Count + 1} -> ");
     var input = Console.ReadLine();
     if (!double.TryParse(input, out num))
     {
