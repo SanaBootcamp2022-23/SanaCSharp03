@@ -1,6 +1,6 @@
 using System.Text;
 
-namespace Arrays
+namespace Arrayshttps://github.com/AndryVolynets/SanaCSharp05/blob/main/Arrays/Program.cs
 {
     internal class Program
     {
@@ -9,18 +9,16 @@ namespace Arrays
         {
             return random.NextDouble() * (maximum - minimum) + minimum;
         }
+        
         static void Main(string[] args)
         {
             Console.OutputEncoding = Encoding.UTF8;
-
             int N = 10;
             double[] arr = new double[N];
 
             for (int i = 0; i < N; i++)
             {
-                arr[i] = (i == random.Next(0, N) ? 
-                    random.Next(-10, 10) :
-                    GetRandomNumber(-10, 10));
+                arr[i] = (i == random.Next(0, N) ? random.Next(-10, 10) : GetRandomNumber(-10, 10));
                 Console.Write($"{Math.Round(arr[i], 3)}| ");
             }
 
