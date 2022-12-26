@@ -1,15 +1,21 @@
-﻿int sumNegativeElem = 0, maxElem = int.MinValue, indexMaxElem = -1, maxAbsElem = int.MinValue, sumIndexPositiveElem = 0;
+﻿double sumNegativeElem = 0, maxElem = int.MinValue, indexMaxElem = -1, maxAbsElem = int.MinValue, sumIndexPositiveElem = 0;
 
-int quantityElemArr;
+int quantityElemArr, quantityWholeNumber = 0;
 
 CheckAndWriteNumber(out quantityElemArr);
 
-int[] arr = new int[quantityElemArr];
+double[] arr = new double[quantityElemArr];
 Random rnd = new Random();
 Console.Write("arr = ");
 for (int i = 0; i < arr.Length; i++)
 {
-    arr[i] = rnd.Next(-20, 20);
+    int checkWholeFractionalNumber = rnd.Next(0, 2);  // 1 and 2 if whole number, 0 if fractional number
+    //Console.Write($"checkWholeFractionalNumber = {checkWholeFractionalNumber}");
+    if (checkWholeFractionalNumber == 1 || checkWholeFractionalNumber == 2)
+        arr[i] = rnd.Next(-20, 20);
+    else if(checkWholeFractionalNumber == 0)
+        arr[i] = rnd.Next(-20, 20) + Math.Round(rnd.NextDouble(), 2, MidpointRounding.ToEven);
+
     Console.Write($"{arr[i]}  ");
     if (arr[i] < 0)
         sumNegativeElem += arr[i];
@@ -22,13 +28,18 @@ for (int i = 0; i < arr.Length; i++)
         maxAbsElem = Math.Abs(arr[i]);
     if (arr[i] > 0)
         sumIndexPositiveElem += i;
+    if (arr[i] % 1 == 0 && arr[i] != 0)
+    {
+        quantityWholeNumber++;
+    }
 }
 
-Console.Write($"\nSum of negative elements = {sumNegativeElem}\n");
+Console.Write($"\nSum of negative elements = {Math.Round(sumNegativeElem, 2, MidpointRounding.ToEven)}\n");
 Console.Write($"Maximum element = {maxElem}\n");
 Console.Write($"Index of maximum element = {indexMaxElem}\n");
 Console.Write($"Maximum element by module = {maxAbsElem}\n");
-Console.Write($"Sum index of positive element = {sumIndexPositiveElem}");
+Console.Write($"Sum index of positive element = {sumIndexPositiveElem}\n");
+Console.Write($"Quantity if whole number = {quantityWholeNumber}");
 
 void CheckAndWriteNumber(out int number)
 {
