@@ -1,6 +1,6 @@
 using System.Text;
 
-namespace Arrayshttps://github.com/AndryVolynets/SanaCSharp05/blob/main/Arrays/Program.cs
+namespace Arrays
 {
     internal class Program
     {
