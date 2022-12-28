@@ -10,21 +10,31 @@ Console.InputEncoding = Encoding.Unicode;
 int n = GetSize();
 double [] array = new double[n];
 
-array = FillArray(n);
+FillArray(array);
+SumOfNegativeElements(array);
+
+Console.ReadKey();
 
 
-
-
-double[] FillArray (int n)
+void SumOfNegativeElements(double[] arr)
 {
-    double[] array = new double[n];
+    double sum = 0;
 
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < arr.Length; i++)
     {
-        array[i] = GetElement(i);
+        if (arr[i] < 0)
+            sum += arr[i];
     }
 
-    return null;
+    Console.WriteLine($"Сума від'ємних елементів: {sum}");
+}
+
+void FillArray(double[] arr)
+{
+    for (int i = 0; i < n; i++)
+    {
+        arr[i] = GetElement(i);
+    }
 }
 
 double GetElement(int n)
