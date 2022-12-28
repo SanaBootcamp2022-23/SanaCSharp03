@@ -11,13 +11,27 @@ int n = GetSize();
 double [] array = new double[n];
 
 FillArray(array);
-//SumOfNegativeElements(array);
-//FindMaxElem(array);
-//FindAbsMaxElem(array);
+SumOfNegativeElements(array);
+FindMaxElem(array);
+FindAbsMaxElem(array);
 SumIndecesOfPositiveElements(array);
+CountIntegers(array);
 
 Console.ReadKey();
 
+
+void CountIntegers(double[] arr)
+{
+    int counter = 0;
+
+    for (int i = 0; i < arr.Length; i++)
+    {
+        if (arr[i] % 1 == 0)
+            counter++;
+    }
+
+    Console.WriteLine($"Цілих чисел в масиві: {counter}");
+}
 void SumIndecesOfPositiveElements(double[] arr)
 {
     int sum = 0;
