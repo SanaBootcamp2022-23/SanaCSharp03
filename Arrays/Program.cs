@@ -13,11 +13,23 @@ double [] array = new double[n];
 FillArray(array);
 //SumOfNegativeElements(array);
 //FindMaxElem(array);
-FindAbsMaxElem(array);
+//FindAbsMaxElem(array);
+SumIndecesOfPositiveElements(array);
 
 Console.ReadKey();
 
+void SumIndecesOfPositiveElements(double[] arr)
+{
+    int sum = 0;
 
+    for (int i = 0; i < arr.Length; i++)
+    {
+        if (arr[i] > 0)
+            sum += i;
+    }
+
+    Console.WriteLine($"Сума індексів додатніх елементів: {sum}");
+}
 void FindAbsMaxElem(double[] arr)
 {
     double maxElem = Math.Abs(arr[0]);
