@@ -12,11 +12,26 @@ double [] array = new double[n];
 
 FillArray(array);
 //SumOfNegativeElements(array);
-FindMaxElem(array);
+//FindMaxElem(array);
+FindAbsMaxElem(array);
 
 Console.ReadKey();
 
 
+void FindAbsMaxElem(double[] arr)
+{
+    double maxElem = Math.Abs(arr[0]);
+
+    for (int i = 0; i < arr.Length; i++)
+    {
+        if (Math.Abs(arr[i]) > maxElem)
+        {
+            maxElem = Math.Abs(arr[i]);
+        }
+    }
+
+    Console.WriteLine($"Максимальний за модулем елемент масиву: {maxElem}");
+}
 void FindMaxElem(double[] arr)
 {
     double maxElem = arr[0];
