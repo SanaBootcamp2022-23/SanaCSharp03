@@ -11,11 +11,29 @@ int n = GetSize();
 double [] array = new double[n];
 
 FillArray(array);
-SumOfNegativeElements(array);
+//SumOfNegativeElements(array);
+FindMaxElem(array);
 
 Console.ReadKey();
 
 
+void FindMaxElem(double[] arr)
+{
+    double maxElem = arr[0];
+    int maxIndex = 0;
+
+    for (int i = 0; i < arr.Length; i++)
+    {
+        if (arr[i] > maxElem)
+        {
+            maxElem = arr[i];
+            maxIndex = i;
+        }
+    }
+
+    Console.WriteLine($"Індекс максимального елемента: {maxIndex}");
+    Console.WriteLine($"Максимальний елемент: {maxElem}");
+}
 void SumOfNegativeElements(double[] arr)
 {
     double sum = 0;
