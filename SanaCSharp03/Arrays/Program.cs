@@ -25,3 +25,25 @@ for (int i = 0; i < arr.Length; i++)
 Console.WriteLine($"The sum of negative array elements : ");
 Console.WriteLine($"\t{sumNegative}");
 Console.WriteLine();
+
+
+
+
+//максимальний елемент масиву;
+//номер (індекс) максимального елемента масиву;
+double max = arr[0];
+int maxElementIndex = 0;
+for (int i = 1; i < arr.Length; i++)
+{
+    if (arr[i] > max)
+    {
+        max = arr[i];
+        maxElementIndex = i;
+    }
+
+}
+Console.WriteLine($"The maximum element of the array : ");
+Console.WriteLine($"\t{max}");
+Console.WriteLine();
+Console.WriteLine($"Number (index) of the maximum element of the array : ");
+Console.WriteLine($"\t{maxElementIndex}");
