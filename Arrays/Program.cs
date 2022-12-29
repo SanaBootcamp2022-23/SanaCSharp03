@@ -1,5 +1,8 @@
-﻿namespace SanaSharp03
+﻿using System.Xml;
+
+namespace SanaSharp03
 {
+    
     class Program
     {
         static void Main(string[] args)
@@ -38,12 +41,24 @@
 
         static void MaxElementOfArr(int[] arr)//SubTask 2 and 3
         {
+            //SubTask 2
             int IndexMaxElemnt = 0;
             for (int i = 1; i < arr.Length; i++)
                 if (arr[IndexMaxElemnt] < arr[i])
                     IndexMaxElemnt = i;
-            Console.WriteLine($"Index of max element of array = {IndexMaxElemnt}, it have value = {arr[IndexMaxElemnt]}");
+
+            Console.WriteLine($"Max value of array = {arr[IndexMaxElemnt]}");
+
+            //SubTask 3
+            Console.Write($"Indexs of element which have max value of array = ");
+
+            for (int i = 0; i < arr.Length; i++)
+                if (arr[i] == arr[IndexMaxElemnt])
+                    Console.Write(i + ", ");
+            Console.Write("\n");
+            
         }
+
         static void MaxElementOfArrModulo(int[] arr)//SubTask 4
         {
             int IndexMaxElemnt = 0;
@@ -70,7 +85,7 @@
         {
             Random rand = new Random();
             for (int i = 0; i < arr.Length; i++)
-                arr[i] = rand.Next(-500,500);
+                arr[i] = rand.Next(-10,10);
             Console.Write("Random ganarated array = ");
             OutputArr(arr);
             return arr;
@@ -84,7 +99,7 @@
         static void ExitWithError()
         {
             Console.WriteLine("Incorrect value.");
-            return;
+            Environment.Exit(1);
         }
         #endregion
 
