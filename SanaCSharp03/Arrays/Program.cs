@@ -47,3 +47,21 @@ Console.WriteLine($"\t{max}");
 Console.WriteLine();
 Console.WriteLine($"Number (index) of the maximum element of the array : ");
 Console.WriteLine($"\t{maxElementIndex}");
+Console.WriteLine();
+
+
+//максимальний за модулем елемент масиву;
+double maxAbs = arr[0];
+for (int i = 1; i < arr.Length; i++)
+{
+    if (Math.Abs(arr[i]) > Math.Abs(maxAbs))
+    {
+        maxAbs = arr[i];
+
+    }
+    
+
+}
+Console.WriteLine($"The maximum array element by modulus : ");
+Console.WriteLine($"\t{maxAbs}");
+Console.WriteLine();
