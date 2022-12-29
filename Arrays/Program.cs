@@ -43,8 +43,15 @@ for (int i = 0; i < n; i++)
 
 Console.WriteLine("Сума від'ємних: " + sumOfNegatives);
 Console.WriteLine("Максимальний елемент: " + max);
-Console.WriteLine("Індекс максимального елемента: " + maxIndex);
-Console.WriteLine("Максимальний за модулем елемент: " + maxAbs);
+Console.Write("Індекс максимального елемента:");
+for (int i = 0; i < n; i++)
+{
+    if (max == array[i])
+    {
+        Console.Write($" {i}");
+    }
+}
+Console.WriteLine("\nМаксимальний за модулем елемент: " + maxAbs);
 Console.WriteLine("Сума індексів додатних елементів: " + sumOfPositiveIndices);
 Console.WriteLine("Кількість цілих чисел: " + countOfIntegers);
 Console.ReadLine();
