@@ -1,0 +1,15 @@
+D:\Користувач\Desktop\sana\SanaCSharp03\Array\Array\obj\Debug\net6.0\Array.csproj.AssemblyReference.cache
+D:\Користувач\Desktop\sana\SanaCSharp03\Array\Array\obj\Debug\net6.0\Array.GeneratedMSBuildEditorConfig.editorconfig
+D:\Користувач\Desktop\sana\SanaCSharp03\Array\Array\obj\Debug\net6.0\Array.AssemblyInfoInputs.cache
+D:\Користувач\Desktop\sana\SanaCSharp03\Array\Array\obj\Debug\net6.0\Array.AssemblyInfo.cs
+D:\Користувач\Desktop\sana\SanaCSharp03\Array\Array\obj\Debug\net6.0\Array.csproj.CoreCompileInputs.cache
+D:\Користувач\Desktop\sana\SanaCSharp03\Array\Array\bin\Debug\net6.0\Array.exe
+D:\Користувач\Desktop\sana\SanaCSharp03\Array\Array\bin\Debug\net6.0\Array.deps.json
+D:\Користувач\Desktop\sana\SanaCSharp03\Array\Array\bin\Debug\net6.0\Array.runtimeconfig.json
+D:\Користувач\Desktop\sana\SanaCSharp03\Array\Array\bin\Debug\net6.0\Array.dll
+D:\Користувач\Desktop\sana\SanaCSharp03\Array\Array\bin\Debug\net6.0\Array.pdb
+D:\Користувач\Desktop\sana\SanaCSharp03\Array\Array\obj\Debug\net6.0\Array.dll
+D:\Користувач\Desktop\sana\SanaCSharp03\Array\Array\obj\Debug\net6.0\refint\Array.dll
+D:\Користувач\Desktop\sana\SanaCSharp03\Array\Array\obj\Debug\net6.0\Array.pdb
+D:\Користувач\Desktop\sana\SanaCSharp03\Array\Array\obj\Debug\net6.0\Array.genruntimeconfig.cache
+D:\Користувач\Desktop\sana\SanaCSharp03\Array\Array\obj\Debug\net6.0\ref\Array.dll
