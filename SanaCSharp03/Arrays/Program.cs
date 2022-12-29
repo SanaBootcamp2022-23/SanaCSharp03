@@ -81,3 +81,20 @@ for (int i = 1; i < arr.Length; i++)
 Console.WriteLine($"The sum of indices of positive elements : ");
 Console.WriteLine($"\t{sumIndexPositive}");
 Console.WriteLine();
+
+
+
+//кількість цілих чисел у масиві.
+int integer;
+int integerSum = 0;
+for (int i = 1; i < arr.Length; i++)
+{
+    integer = (int)arr[i];
+    if (arr[i] == integer)
+    {
+        integerSum++;
+    }
+
+}
+Console.WriteLine($"The number of integers in the array : ");
+Console.WriteLine($"\t{integerSum}");
