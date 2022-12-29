@@ -69,7 +69,11 @@ for (uint i = 0; i < numberOfArrayElements; i++)
 
 arrayOfMaxValueIndex = new uint[countOfMaxValueIndex];
 
+<<<<<<< HEAD
 for (uint j = maxValueArrayIndex + 1; j < numberOfArrayElements; j++)
+=======
+for (uint j = maxValueArrayIndex ; j < numberOfArrayElements; j++)
+>>>>>>> beckupAndUpdate
 {
     if (array[j] == maxValueOfArray)
     {
