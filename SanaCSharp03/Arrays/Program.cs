@@ -36,8 +36,28 @@ namespace Arrays
 
             double negSum = 0;
             int posIndexSum = 0;
+            double maxElement = numbers[0];
+            int maxIndex = 0;
+            double maxAbs = numbers[0];
+            int integerCount = 0;
             for (int i = 0; i < N; i++)
             {
+                if (numbers[i] > maxElement)
+                {
+                    maxElement = numbers[i];
+                    maxIndex = i;
+                }
+
+                if (Math.Abs(numbers[i]) > Math.Abs(maxAbs))
+                {
+                    maxAbs = numbers[i];
+                }
+
+                if (numbers[i] % 1 == 0)
+                {
+                    integerCount++;
+                }
+
                 if (numbers[i] <= 0)
                 {
                     negSum+=numbers[i];
@@ -48,33 +68,21 @@ namespace Arrays
                 }
             }
 
-            double maxElement = numbers[0];
-            int maxIndex = 0;
+
             for (int i = 0; i < N; i++)
             {
-                if (numbers[i]>maxElement)
-                {
-                    maxElement = numbers[i];
-                    maxIndex = i;
-                }
+
             }
 
-            double maxAbs = numbers[0];
             for (int i = 0; i < N; i++)
             {
-                if (Math.Abs(numbers[i]) > Math.Abs(maxAbs))
-                {
-                    maxAbs = numbers[i];
-                }
+                
             }
 
-            int integerCount = 0;
+
             for (int i = 0; i < N; i++)
             {
-                if (numbers[i] % 1 == 0)
-                {
-                    integerCount++;
-                }
+
             }
 
 
