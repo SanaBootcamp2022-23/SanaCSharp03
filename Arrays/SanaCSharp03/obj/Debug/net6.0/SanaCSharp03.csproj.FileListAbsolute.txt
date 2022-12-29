@@ -1,0 +1,15 @@
+D:\sanacourses\SanaCSharp03\Arrays\SanaCSharp03\bin\Debug\net6.0\SanaCSharp03.exe
+D:\sanacourses\SanaCSharp03\Arrays\SanaCSharp03\bin\Debug\net6.0\SanaCSharp03.deps.json
+D:\sanacourses\SanaCSharp03\Arrays\SanaCSharp03\bin\Debug\net6.0\SanaCSharp03.runtimeconfig.json
+D:\sanacourses\SanaCSharp03\Arrays\SanaCSharp03\bin\Debug\net6.0\SanaCSharp03.dll
+D:\sanacourses\SanaCSharp03\Arrays\SanaCSharp03\bin\Debug\net6.0\SanaCSharp03.pdb
+D:\sanacourses\SanaCSharp03\Arrays\SanaCSharp03\obj\Debug\net6.0\SanaCSharp03.csproj.AssemblyReference.cache
+D:\sanacourses\SanaCSharp03\Arrays\SanaCSharp03\obj\Debug\net6.0\SanaCSharp03.GeneratedMSBuildEditorConfig.editorconfig
+D:\sanacourses\SanaCSharp03\Arrays\SanaCSharp03\obj\Debug\net6.0\SanaCSharp03.AssemblyInfoInputs.cache
+D:\sanacourses\SanaCSharp03\Arrays\SanaCSharp03\obj\Debug\net6.0\SanaCSharp03.AssemblyInfo.cs
+D:\sanacourses\SanaCSharp03\Arrays\SanaCSharp03\obj\Debug\net6.0\SanaCSharp03.csproj.CoreCompileInputs.cache
+D:\sanacourses\SanaCSharp03\Arrays\SanaCSharp03\obj\Debug\net6.0\SanaCSharp03.dll
+D:\sanacourses\SanaCSharp03\Arrays\SanaCSharp03\obj\Debug\net6.0\refint\SanaCSharp03.dll
+D:\sanacourses\SanaCSharp03\Arrays\SanaCSharp03\obj\Debug\net6.0\SanaCSharp03.pdb
+D:\sanacourses\SanaCSharp03\Arrays\SanaCSharp03\obj\Debug\net6.0\SanaCSharp03.genruntimeconfig.cache
+D:\sanacourses\SanaCSharp03\Arrays\SanaCSharp03\obj\Debug\net6.0\ref\SanaCSharp03.dll
