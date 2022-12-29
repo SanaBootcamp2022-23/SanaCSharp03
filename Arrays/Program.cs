@@ -127,5 +127,6 @@
         return result;
     }
 
-    private static int ParseIntVar(string varName) => (int)ParseDoubleVar(varName);
+    private static int ParseIntVar(string varName)
+    => (int)ParseDoubleVar(varName);
 }
