@@ -65,3 +65,19 @@ for (int i = 1; i < arr.Length; i++)
 Console.WriteLine($"The maximum array element by modulus : ");
 Console.WriteLine($"\t{maxAbs}");
 Console.WriteLine();
+
+
+
+//суму індексів додатних елементів;
+int sumIndexPositive = 0;
+for (int i = 1; i < arr.Length; i++)
+{
+    if (arr[i] > 0)
+    {
+        sumIndexPositive += i;
+    }
+
+}
+Console.WriteLine($"The sum of indices of positive elements : ");
+Console.WriteLine($"\t{sumIndexPositive}");
+Console.WriteLine();
