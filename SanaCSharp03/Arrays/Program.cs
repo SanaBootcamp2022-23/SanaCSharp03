@@ -11,6 +11,7 @@ double[] array = new double[N];
 double maxelement = array[0];
 for (int i = 0; i < N; i++)
 {
+    Console.Write($" Enter element of array[{i}]: ");
     array[i] = double.Parse(Console.ReadLine());
     if (array[i] < 0)
     {
@@ -27,7 +28,7 @@ for (int i = 0; i < N; i++)
     }
     if (array[i] > 0)
     {
-        sumindex++;
+        sumindex+=i;
     }
     if (array[i] % 1 == 0)
     {
