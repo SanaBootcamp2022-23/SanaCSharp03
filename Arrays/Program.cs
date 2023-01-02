@@ -3,7 +3,7 @@ int sizeN = int.Parse(Console.ReadLine()),
     countInteger = 0;
 double[] array = new double[sizeN];
 double sumaOfNegatives = 0, 
-    maxElement = array[0], 
+    maxElement, 
     indexMaxElement = 0, 
     maxAbsoluteValue = array[0],
     smallestValue = 0,
@@ -21,6 +21,7 @@ for (int i = 0;i < sizeN;i++)
     }
 }
 //пошук максимального елементу та його індексу
+maxElement = array[0]; 
     for (int i = 0; i < sizeN; i++)
     {
         if (maxElement < array[i])
