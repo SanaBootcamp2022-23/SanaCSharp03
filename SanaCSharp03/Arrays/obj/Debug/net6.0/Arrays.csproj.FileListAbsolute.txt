@@ -1,0 +1,15 @@
+F:\2 курс\sana\SanaCSharp03\SanaCSharp03\Arrays\bin\Debug\net6.0\Arrays.exe
+F:\2 курс\sana\SanaCSharp03\SanaCSharp03\Arrays\bin\Debug\net6.0\Arrays.deps.json
+F:\2 курс\sana\SanaCSharp03\SanaCSharp03\Arrays\bin\Debug\net6.0\Arrays.runtimeconfig.json
+F:\2 курс\sana\SanaCSharp03\SanaCSharp03\Arrays\bin\Debug\net6.0\Arrays.dll
+F:\2 курс\sana\SanaCSharp03\SanaCSharp03\Arrays\bin\Debug\net6.0\ref\Arrays.dll
+F:\2 курс\sana\SanaCSharp03\SanaCSharp03\Arrays\bin\Debug\net6.0\Arrays.pdb
+F:\2 курс\sana\SanaCSharp03\SanaCSharp03\Arrays\obj\Debug\net6.0\Arrays.csproj.AssemblyReference.cache
+F:\2 курс\sana\SanaCSharp03\SanaCSharp03\Arrays\obj\Debug\net6.0\Arrays.GeneratedMSBuildEditorConfig.editorconfig
+F:\2 курс\sana\SanaCSharp03\SanaCSharp03\Arrays\obj\Debug\net6.0\Arrays.AssemblyInfoInputs.cache
+F:\2 курс\sana\SanaCSharp03\SanaCSharp03\Arrays\obj\Debug\net6.0\Arrays.AssemblyInfo.cs
+F:\2 курс\sana\SanaCSharp03\SanaCSharp03\Arrays\obj\Debug\net6.0\Arrays.csproj.CoreCompileInputs.cache
+F:\2 курс\sana\SanaCSharp03\SanaCSharp03\Arrays\obj\Debug\net6.0\Arrays.dll
+F:\2 курс\sana\SanaCSharp03\SanaCSharp03\Arrays\obj\Debug\net6.0\ref\Arrays.dll
+F:\2 курс\sana\SanaCSharp03\SanaCSharp03\Arrays\obj\Debug\net6.0\Arrays.pdb
+F:\2 курс\sana\SanaCSharp03\SanaCSharp03\Arrays\obj\Debug\net6.0\Arrays.genruntimeconfig.cache
